@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+body {
+    font-family: "Roboto";
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
+    background-size: cover;
+}
+
+nav {
+    padding: 15px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-name {
+    color: #F5F5F5;
+    font-weight: 400;
+    font-family: "Caveat";
+    font-size: 30px;
+}
+
+.surname {
+    color: #f00;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.links:hover {
+    color: #f00;
+}
+
+.message-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio-heading {
+    text-align: center;
+}
+
+.portfolio-content {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.portfolio-card {
+    height: 180px;
+    width: 200px;
+    background-color: #c0c5ce;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.card-heading {
+    font-size: 20px;
+}
+
+.card-description {
+    font-size: 13px;
+    color: #65737e; 
+}
+
+.footer {
+    background-color: #333333;
+    background-size: cover;
+    border: 0px;
+    margin: 0%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyrights {
+    margin: 0%;
+    border: 0px;
+    color: #F5F5F5;
+}
