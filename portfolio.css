@@ -51,9 +51,11 @@ nav {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .portfolio-card {
+    padding: 16px;
     height: 180px;
     width: 200px;
     background-color: #c0c5ce;
@@ -62,6 +64,7 @@ nav {
     overflow: hidden;
     margin-top: 30px;
     margin-right: 20px;
+    margin-left: 20px;
 }
 
 .card-heading {
@@ -71,6 +74,22 @@ nav {
 .card-description {
     font-size: 13px;
     color: #65737e; 
+}
+
+.conclusion {
+    background-color: #65737e;
+    font-size: bold;
+    padding: 20px;
+}
+
+.Linkedin {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+.Linkedin:hover {
+    color: #f00;
 }
 
 .footer {
